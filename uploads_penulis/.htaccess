@@ -1,0 +1,6 @@
+# uploads_penulis/.htaccess
+# Mencegah eksekusi file PHP di dalam folder uploads
+
+Options -ExecCGI
+AddHandler cgi-script .php .php3 .php4 .php5 .phtml .pl .py .jsp .asp .sh .cgi
+php_flag engine off
