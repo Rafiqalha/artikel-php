@@ -1,4 +1,6 @@
-# 🚀 Sistem Manajemen Blog (CMS) & Frontend Publik
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+# <i class="fa-solid fa-rocket"></i> Sistem Manajemen Blog (CMS) & Frontend Publik
 
 Sistem Manajemen Blog interaktif berbasis **PHP MySQL Native** dengan desain UI/UX berstandar industri (Glassmorphism & Micro-animations). Proyek ini dibagi menjadi dua bagian utama:
 1. **CMS (Content Management System) / Backend**: Panel admin untuk kelola Kategori, Artikel, dan Penulis.
@@ -6,7 +8,7 @@ Sistem Manajemen Blog interaktif berbasis **PHP MySQL Native** dengan desain UI/
 
 ---
 
-## 🛠️ Tech Stack
+## <i class="fa-solid fa-screwdriver-wrench"></i> Tech Stack
 - **Frontend Publik**: HTML5, Vanilla CSS3 (Custom Variables, Modern Layout), Vanilla JS
 - **CMS Backend**: PHP (Native Procedural/OOP mixed), MySQLi (Prepared Statements)
 - **Database**: MySQL / MariaDB
@@ -15,7 +17,7 @@ Sistem Manajemen Blog interaktif berbasis **PHP MySQL Native** dengan desain UI/
 
 ---
 
-## ⚙️ Fitur Utama
+## <i class="fa-solid fa-gear"></i> Fitur Utama
 - **CRUD Super Cepat (No-Reload):** Papan kendali (CMS) murni menggunakan AJAX Fetch API untuk menambah, mengedit, dan menghapus artikel tanpa *refresh* halaman.
 - **Upload Gambar:** Fitur unggah gambar profil penulis dan gambar sampul artikel (tersimpan rapi di direktori `uploads_penulis/` dan `uploads_artikel/`).
 - **Database Relasional:** Keterikatan data antara Penulis, Kategori, dan Artikel (*Foreign Keys*).
@@ -23,7 +25,7 @@ Sistem Manajemen Blog interaktif berbasis **PHP MySQL Native** dengan desain UI/
 
 ---
 
-## 💻 Panduan Instalasi di Komputer Lain (Menggunakan XAMPP)
+## <i class="fa-solid fa-laptop-code"></i> Panduan Instalasi di Komputer Lain (Menggunakan XAMPP)
 
 Untuk menjalankan *source code* ini pada komputer/laptop lain menggunakan XAMPP, silakan ikuti petunjuk langkah demi langkah di bawah ini dengan berurutan.
 
@@ -57,17 +59,17 @@ $pass = ''; // <--- Ubah ini jika MySQL kamu memakai password
 ### 4. Mengakses Aplikasi di Browser
 Susunan URL menyesuaikan dengan lokasi *folder* projekmu di `htdocs`. Misalnya kamu menggunakan struktur folder `htdocs/blog_cms/`, maka:
 
-🌎 **1. Akses Tampilan Web Pembaca (Frontend):**
+<i class="fa-solid fa-globe"></i> **1. Akses Tampilan Web Pembaca (Frontend):**
 Untuk melihat tata letak hasil tulisan blog, ketik pada browser:
-👉 `http://localhost/blog_cms/public/`
+<i class="fa-solid fa-hand-point-right"></i> `http://localhost/blog_cms/public/`
 
-🔐 **2. Akses Tampilan Dashboard Admin (CMS):**
+<i class="fa-solid fa-lock"></i> **2. Akses Tampilan Dashboard Admin (CMS):**
 Untuk menambahkan, mengedit, atau menghapus artikel serta memanajemen penulis, ketik pada browser:
-👉 `http://localhost/blog_cms/index.php`
+<i class="fa-solid fa-hand-point-right"></i> `http://localhost/blog_cms/index.php`
 
 ---
 
-## 📁 Struktur Direktori
+## <i class="fa-solid fa-folder-tree"></i> Struktur Direktori
 ```text
 /
 ├── public/                 # Folder Website Publik (Pembaca)
@@ -86,4 +88,4 @@ Untuk menambahkan, mengedit, atau menghapus artikel serta memanajemen penulis, k
 └── index.php               # Halaman Papan Kendali Utama (CMS Dashboard)
 ```
 
-Happy Coding! ✨
+Happy Coding! <i class="fa-solid fa-wand-magic-sparkles"></i>
